@@ -69,7 +69,7 @@ function p_TCP.dissector(buffer,pinfo,tree)
         end
 
         if tcp_rst then
-            string = "כשל"
+            string = "שתוק"
             goto display
         end
 
